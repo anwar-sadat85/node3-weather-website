@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e)=>{
             console.log(data);
             messageOne.textContent = `You searched for ${data.location}`
             messageTwo.textContent = `The temperature is ${data.temperature}  and it feels like ${data.feelslike}`
-            messageOne.messageThree = `The visibiliy is  ${data.visibility}`
+            messageThree.textContent = `The visibiliy is  ${data.visibility}`
         }
     })
 })
